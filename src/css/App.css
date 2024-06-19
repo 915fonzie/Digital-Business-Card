@@ -1,5 +1,5 @@
 .app-container {
-  margin: auto;
+  margin: 1em auto;
   width: 317px;
   background-color: #1A1B21;
   border-radius: 10px;
@@ -11,7 +11,7 @@
 }
 
 .profile-img {
-  width: 317px;
+  max-width: 317px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -105,4 +105,25 @@ footer {
 
 .github-img {
   width: 38px;
+}
+
+@media screen and (max-width: 600px) {
+  #root {
+    width: 100%;
+  }
+  .app-container {
+    width: 100%;
+    margin: 0;
+    padding-top: 1em;
+  }
+
+  .about, .interests, .info-container {
+    max-width: 317px;
+    margin: auto;
+  }
+
+  .buttons {
+    justify-content: center;
+    gap: 2em;
+  }
 }

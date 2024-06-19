@@ -5,7 +5,7 @@ import email from '../images/email.svg'
 
 function Info() {
     return (
-        <section className="info">
+        <section className="info-container">
             <img src={profilePic} className="profile-img"/>
             <div className="info">
                 <h1>Alfonso<br></br>Pruneda-Suarez</h1>

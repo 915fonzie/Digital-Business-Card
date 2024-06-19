@@ -13,14 +13,12 @@ html, body {
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   background-color: #23252C;
 }
 
 #root {
   display: flex;
-  height: 100%;
+  margin: auto;
 }
 
